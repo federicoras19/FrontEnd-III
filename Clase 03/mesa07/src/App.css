@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #de1111;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.inicio{
+  background-color: #5f605d;
+  color: #fff;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 300ms;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  border-color: white;
+  border-style: solid;
+  :hover{
+    border-color: black;
+    border-style: solid;
+  }
+}
+.producto, .precio {
+  padding: 1em;
+}
+
+.Header{
+  background-color: yellow;
+  padding: 2em;
+  display: flex;
+
+}
+
+
+.read-the-docs {
+  color: #888;
+}
